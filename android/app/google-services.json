@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "57704866925",
+    "project_id": "cowis-28c06",
+    "storage_bucket": "cowis-28c06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57704866925:android:1d298a1b67b0c23d3b0b64",
+        "android_client_info": {
+          "package_name": "tech.developerdhairya.cowis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57704866925-4pcprrpm64dmdak4od33hsm48uc11u3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.developerdhairya.cowis",
+            "certificate_hash": "11c84d4ef3e0644eecd944f7ef21cf01b625032e"
+          }
+        },
+        {
+          "client_id": "57704866925-8189s8qi2ob8bmvo6sfk0u231ih9suua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXXpEOfx29hOOU-YZrhSlAd6Bo8qDaUXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57704866925-8189s8qi2ob8bmvo6sfk0u231ih9suua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

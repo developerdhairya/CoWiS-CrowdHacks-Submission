@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.developerdhairya.tech.cowis">
+    package="tech.developerdhairya.cowis">
    <application
         android:label="cowis"
         android:icon="@mipmap/ic_launcher">

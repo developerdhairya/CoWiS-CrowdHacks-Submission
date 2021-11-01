@@ -1,4 +1,4 @@
-package com.developerdhairya.tech.cowis
+package tech.developerdhairya.cowis
 
 import io.flutter.embedding.android.FlutterActivity
 
