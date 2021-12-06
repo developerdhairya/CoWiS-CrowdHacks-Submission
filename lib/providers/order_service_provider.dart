@@ -1,15 +1,21 @@
+import 'dart:math';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:cowis/providers/auth_service_providers.dart';
 import 'package:flutter/material.dart';
 
 class OrderServiceProvider extends ChangeNotifier{
   Map<String, int> _orderMap = {};
   int orderQuantity=0;
   int orderAmount=0;
+  String otp="7598";
 
 
   static OrderServiceProvider instance = OrderServiceProvider();
 
   OrderServiceProvider() {}
+
+
 
   void addItem(String _itemID,int _amount) {
     if (_orderMap[_itemID] != null) {
@@ -53,6 +59,8 @@ class OrderServiceProvider extends ChangeNotifier{
           .set({
         "order":_orderMap,
         "orderPlacementTime":DateTime.now(),
+        "orderAccepted":false,
+        "userEmail":AuthServiceProvider.instance.userEmailID,
       });
       resetOrders();
       debugPrint("Order Placed Successfully");

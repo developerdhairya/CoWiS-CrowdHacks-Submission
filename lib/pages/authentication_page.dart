@@ -41,14 +41,16 @@ class _AuthPageState extends State<AuthPage> {
             ),
             Column(
               children: [
-                SizedBox(height: .15*_deviceHeight,),
+                SizedBox(
+                  height: .15 * _deviceHeight,
+                ),
                 SizedBox(
                   child: SvgPicture.asset(
                     "assets/cowis.svg",
                     fit: BoxFit.fill,
                   ),
                   width: 0.7 * _deviceWidth,
-                  height: .30*_deviceHeight,
+                  height: .30 * _deviceHeight,
                 ),
                 SizedBox(
                   height: _deviceHeight * 0.10,
@@ -82,8 +84,8 @@ class _AuthPageState extends State<AuthPage> {
                               ),
                               Text(
                                 "Continue With Google",
-                                style:
-                                    GoogleFonts.roboto().copyWith(fontSize: 25.0),
+                                style: GoogleFonts.roboto()
+                                    .copyWith(fontSize: 25.0),
                               ),
                             ],
                           ),
@@ -95,36 +97,6 @@ class _AuthPageState extends State<AuthPage> {
                 Text("For Service Consumers Only"),
                 SizedBox(
                   height: _deviceHeight * 0.15,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Container(
-                      height: 0.12*_deviceHeight,
-                      width: 0.35*_deviceWidth,
-                      child: Image.asset(
-                        "assets/octahacks.jpg",
-                        fit: BoxFit.fill,
-                      ),
-                    ),
-                    Container(
-                      height: 0.12*_deviceHeight,
-                      width: 0.15*_deviceWidth,
-                      child: Image.asset(
-                        "assets/Multiply.png",
-                        fit: BoxFit.fill,
-                      ),
-                    ),
-                    Container(
-                      height: 0.12*_deviceHeight,
-                      width: 0.35*_deviceWidth,
-                      child: Image.asset(
-                        "assets/DSC.png",
-                        fit: BoxFit.fill,
-                      ),
-                    ),
-
-                  ],
                 ),
               ],
             ),
